@@ -15,7 +15,7 @@ $(".button-contact").click(function(event){
 	window.sr = ScrollReveal();
 	sr.reveal('.content-holder', 
 		{duration:1500, reset:true, origin:'top', distance:'50px'});
-	sr.reveal('.description', {duration:2500, reset:true, delay:2000});
+	sr.reveal('.description', {duration:2500, delay:2000});
 	sr.reveal('.project-item', {duration:2000}, 100);
 
 
